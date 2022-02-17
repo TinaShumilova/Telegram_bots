@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandle
 from bot_command import *
 
 
-updater = Updater('5287218170:AAGq_WhnARKzheMdvwEjUm0Ue8RBDj_C2QU')
+updater = Updater('')
 
 updater.dispatcher.add_handler(CommandHandler('delete', deleted_command))
 updater.dispatcher.add_handler(CommandHandler('help', help_command))
